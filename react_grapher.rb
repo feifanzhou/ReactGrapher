@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 def process_file_in_directory(filename, dir)
   dir[0] == '/' ? "#{ dir }/#{ filename }" : "./#{ dir }/#{ filename }"
 end
